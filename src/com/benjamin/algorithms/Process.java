@@ -1,10 +1,10 @@
 package com.benjamin.algorithms;
 
 public class Process {
-    private String name;
-    private int arrivalTime;
-    private int CPUBurst;
-    private int priority;
+    private final String name;
+    private final int arrivalTime;
+    private final int CPUBurst;
+    private final int priority;
     private int turnAroundTime;
     private int waitingTime;
 
